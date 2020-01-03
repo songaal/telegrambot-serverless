@@ -2,6 +2,15 @@
 
 # 준비사항 
 
+### (개발시) ngrok 사용
+
+외부IP가 없는 개발환경에서 필요.
+
+```
+> ngrok http 3000 -region jp
+```
+되도록 속도가 빠른 일본리전(jp)을 사용한다.
+
 ### webhook 활성화
 
 ```
@@ -10,15 +19,6 @@ https://api.telegram.org/bot<BOT_TOKEN>/setWebhook
 Param) url="API Endpoint"
 
 예) url=https://53278c5d.jp.ngrok.io/message
-
-### (옵션) ngrok 사용
-
-외부IP가 없는 개발환경에서 필요.
-
-```
-> ngrok http 3000 -region jp
-```
-되도록 속도가 빠른 일본리전(jp)을 사용한다.
 
 # 사용법
 
