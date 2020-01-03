@@ -7,7 +7,7 @@
 ```
 https://api.telegram.org/bot<BOT_TOKEN>/setWebhook
 ```
-Param) url=<API Endpoint>
+Param) url="API Endpoint"
 
 예) url=https://53278c5d.jp.ngrok.io/message
 
